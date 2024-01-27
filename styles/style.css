@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+.main-title {
+    color: #fff;
+    font-size: 45px;
+    padding: 25px;
+}
+
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url('/images/login-form-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.login-form {
+    width: 40%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 50px 80px 50px 40px;
+    border-radius: 7px;
+
+    box-shadow: 4px 4px 10px 5px rgba(242, 236, 253, 0.226);
+}
+
+.form-title {
+    font-size: 32px;
+    color: #05C896;
+    font-weight: 700;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: 2px solid #05C896;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.login-form input[type="checkbox"] {
+    margin-top: 20px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.remember {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.login-form input[type="submit"] {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 2px solid #05C896;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #05C896;
+    font-size: 18px;
+    font-weight: 700;
+    width: 115%;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #fff;
+    border: 2px solid #05C896;
+    color: #05C896;
+    cursor: pointer;
+
+}
+
+.login-content {
+    width: 50%;
+}
+
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
